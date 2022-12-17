@@ -32,4 +32,13 @@ public class Main
         }
 
     }
+
+
+    public void randomize(Clothes clothesList)
+    {
+        ArrayList<Clothes> tops = new ArrayList<Clothes>();
+        ArrayList<Clothes> bottoms = new ArrayList<Clothes>();
+
+        
+    }
 }
