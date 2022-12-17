@@ -3,6 +3,7 @@ import java.util.ArrayList;
 
 public class Main
 {
+    ArrayList<Clothes> clothesList;
     public static void main(String[] arg) 
     {
         Scanner sc = new Scanner(System.in);
@@ -34,11 +35,17 @@ public class Main
     }
 
 
-    public void randomize(Clothes clothesList)
+    public void randomize()
     {
         ArrayList<Clothes> tops = new ArrayList<Clothes>();
         ArrayList<Clothes> bottoms = new ArrayList<Clothes>();
 
-        
+
+        for(int i = 0; i < clothesList.size(); i++)
+        {
+            String x = ((String)clothesList.get(i));
+            String space = x.charAt(" "));
+            String status =  x.substring(space);
+        }
     }
 }
